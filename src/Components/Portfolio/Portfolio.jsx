@@ -39,6 +39,17 @@ function Portfolio() {
                   <BsBoxArrowUpRight />
                 </div>
               </div>
+              <div className="btn1">
+                <a
+                  href="https://github.com/m-muzamal/car-rantel"
+                  target="_blank"
+                >
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
             </div>
           </div>
           <div className="left">
