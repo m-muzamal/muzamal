@@ -18,6 +18,7 @@ function Portfolio() {
       <div className="container">
         <span>Portfolio</span>
         <h2>Each project is a unique piece of development 🧩</h2>
+        {/* Car reantel system */}
         <div className="content content_reversed">
           <div className="right">
             <h3>CAR RENTAL (FEBRUARY 2023) 🚗</h3>
@@ -58,6 +59,7 @@ function Portfolio() {
             </a>
           </div>
         </div>
+        {/* Buss reservation system */}
         <div className="content">
           <div className="left">
             <a href="">
@@ -82,9 +84,18 @@ function Portfolio() {
                   <BsBoxArrowUpRight />
                 </div>
               </div>
+              <div className="btn1">
+                <a href="https://github.com/m-muzamal/fyp" target="_blank">
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        {/* E-store */}
         <div className="content content_reversed">
           <div className="right">
             <h3>E-Store 📲</h3>
@@ -107,6 +118,14 @@ function Portfolio() {
                   <BsBoxArrowUpRight />
                 </div>
               </div>
+              <div className="btn1">
+                <a href="https://github.com/m-muzamal/e-store" target="_blank">
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
             </div>
           </div>
           <div className="left">
@@ -115,6 +134,7 @@ function Portfolio() {
             </a>
           </div>
         </div>
+        {/* Portfolio */}
         <div className="content">
           <div className="left">
             <a href="https://mzml.netlify.app/" target="_blank">
@@ -140,9 +160,21 @@ function Portfolio() {
                   <BsBoxArrowUpRight />
                 </div>
               </div>
+              <div className="btn1">
+                <a
+                  href="https://github.com/m-muzamal/m-muzamal.github.io"
+                  target="_blank"
+                >
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        {/* Gymate */}
         <div className="content content_reversed">
           <div className="right">
             <h3>Gymate 💪</h3>
@@ -166,6 +198,14 @@ function Portfolio() {
                   <BsBoxArrowUpRight />
                 </div>
               </div>
+              <div className="btn1">
+                <a href="https://github.com/m-muzamal/gymate" target="_blank">
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
             </div>
           </div>
           <div className="left">
@@ -174,6 +214,7 @@ function Portfolio() {
             </a>
           </div>
         </div>
+        {/* Ecommerce */}
         <div className="content">
           <div className="left">
             <a href="https://e-comerc.netlify.app/" target="_blank">
@@ -200,9 +241,21 @@ function Portfolio() {
                   <BsBoxArrowUpRight />
                 </div>
               </div>
+              <div className="btn1">
+                <a
+                  href="https://github.com/m-muzamal/eCommerce"
+                  target="_blank"
+                >
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        {/* Coindom */}
         <div className="content content_reversed">
           <div className="right">
             <h3>COINDOM 💰</h3>
@@ -223,6 +276,14 @@ function Portfolio() {
                   <BsBoxArrowUpRight />
                 </div>
               </div>
+              <div className="btn1">
+                <a href="https://github.com/m-muzamal/coindom" target="_blank">
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
             </div>
           </div>
           <div className="left">
@@ -231,6 +292,7 @@ function Portfolio() {
             </a>
           </div>
         </div>
+        {/* Blog app */}
         <div className="content">
           <div className="left">
             <a href="">
@@ -256,9 +318,21 @@ function Portfolio() {
                   <BsBoxArrowUpRight />
                 </div>
               </div>
+              <div className="btn1">
+                <a
+                  href="https://github.com/m-muzamal/bloge_app"
+                  target="_blank"
+                >
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        {/* Rasturant */}
         <div className="content content_reversed">
           <div className="right">
             <h3>Resturant app 👨‍🍳</h3>
@@ -277,6 +351,17 @@ function Portfolio() {
                 <a>Not deployed</a>
                 <div className="icon box">
                   <BsBoxArrowUpRight />
+                </div>
+              </div>
+              <div className="btn1">
+                <a
+                  href="https://github.com/m-muzamal/rasturant"
+                  target="_blank"
+                >
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
                 </div>
               </div>
             </div>
