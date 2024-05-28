@@ -23,13 +23,14 @@ function About() {
           </h2>
           <p>
             As a Front-End Developer, I possess an impressive arsenal of skills
-            in HTML, CSS, JavaScript, React, Tailwind, and SASS. I excel in
-            designing and maintaining responsive websites that offer a smooth
-            user experience. My expertise lies in crafting dynamic, engaging
-            interfaces through writing clean and optimized code and utilizing
-            cutting-edge development tools and techniques. I want to join a team
-            who thrives in collaborating with cross-functional teams to produce
-            outstanding web applications.
+            in <strong> HTML, CSS, JavaScript, React, Tailwind,</strong> and
+            <strong> SASS</strong>. I excel in designing and maintaining
+            responsive websites that offer a smooth user experience. My
+            expertise lies in crafting dynamic, engaging interfaces through
+            writing clean and optimized code and utilizing cutting-edge
+            development tools and techniques. I want to join a team who thrives
+            in collaborating with cross-functional teams to produce outstanding
+            web applications.
           </p>
         </div>
       </div>

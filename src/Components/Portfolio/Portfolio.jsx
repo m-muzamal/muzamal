@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./portfolio.scss";
 import { AiFillGithub } from "react-icons/ai";
 import { BsBoxArrowUpRight } from "react-icons/bs";
@@ -11,8 +11,11 @@ import web6 from "../../assets/web6.jpeg";
 import web7 from "../../assets/web7.jpeg";
 import web8 from "../../assets/web8.jpeg";
 import web9 from "../../assets/web9.jpeg";
+import { ModuleContext } from "../../Context/ModuleContext";
 
 function Portfolio() {
+  const { setShowModule } = useContext(ModuleContext);
+
   return (
     <div id="portfolio" className="portfolio">
       <div className="container">
@@ -62,7 +65,11 @@ function Portfolio() {
         {/* Buss reservation system */}
         <div className="content">
           <div className="left">
-            <a href="">
+            <a
+              onClick={() => {
+                setShowModule(true);
+              }}
+            >
               <img src={web2} alt="" />
             </a>
           </div>
@@ -79,7 +86,7 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a>Not deployed</a>
+                <a onClick={() => setShowModule(true)}>Live_Demo</a>
                 <div className="icon box">
                   <BsBoxArrowUpRight />
                 </div>
@@ -144,9 +151,10 @@ function Portfolio() {
           <div className="right">
             <h3>Portfolio Website 🚩</h3>
             <p>
-              I am a student of BS Computer Science at University of agriculture
-              Faisalabad. I always strive to learn new skills and improve where
-              I am lacking. My goal is to work with an organization.
+              Developed a personalized portfolio showcasing a collection of my
+              work, skills, and professional journey. I always strive to learn
+              new skills and improve where I am lacking. My goal is to work with
+              an organization.
             </p>
             <div className="btns">
               <div className="btn">React</div>
@@ -313,7 +321,9 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a>Not deployed</a>
+                <a href="https://online-blog-app.netlify.app/" target="_blank">
+                  Live_Demo
+                </a>
                 <div className="icon box">
                   <BsBoxArrowUpRight />
                 </div>
@@ -348,7 +358,9 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a>Not deployed</a>
+                <a href="https://rasturant-app.netlify.app/" target="_blank">
+                  Live_Demo
+                </a>
                 <div className="icon box">
                   <BsBoxArrowUpRight />
                 </div>
