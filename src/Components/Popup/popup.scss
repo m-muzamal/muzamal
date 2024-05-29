@@ -22,7 +22,7 @@
     background-color: #fff;
     padding: 2rem;
     width: 40%;
-    height: 80%;
+    height: auto;
     border: 1px solid var(--color-secondary);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
@@ -35,7 +35,7 @@
     }
     .title {
       font-weight: bolder;
-      margin-bottom: 1rem;
+      margin: 1rem 0;
       font-size: 35px;
       @include mb {
         font-size: 20px;

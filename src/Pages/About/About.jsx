@@ -13,7 +13,7 @@ function About() {
           variants={fadeIn("right", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.4 }}
+          viewport={{ once: false, amount: 0.3 }}
           className="left"
         >
           <div className="image">
@@ -28,7 +28,7 @@ function About() {
           variants={fadeIn("left", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.4 }}
+          viewport={{ once: false, amount: 0.3 }}
           className="right"
         >
           <span>About Me</span>

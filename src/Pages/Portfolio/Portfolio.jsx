@@ -29,7 +29,7 @@ function Portfolio() {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="right"
           >
             <h3>CAR RENTAL (FEBRUARY 2023) 🚗</h3>
@@ -68,7 +68,7 @@ function Portfolio() {
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="left"
           >
             <a href="https://car-rantel.netlify.app/" target="_blank">
@@ -82,7 +82,7 @@ function Portfolio() {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="left"
           >
             <a
@@ -97,7 +97,7 @@ function Portfolio() {
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="right"
           >
             <h3>Bus Reservation System 🚌</h3>
@@ -134,7 +134,7 @@ function Portfolio() {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="right"
           >
             <h3>E-Store 📲</h3>
@@ -171,7 +171,7 @@ function Portfolio() {
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="left"
           >
             <a href="https://e-sale.netlify.app/" target="_blank">
@@ -185,7 +185,7 @@ function Portfolio() {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="left"
           >
             <a href="https://mzml.netlify.app/" target="_blank">
@@ -196,7 +196,7 @@ function Portfolio() {
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="right"
           >
             <h3>Portfolio Website 🚩</h3>
@@ -238,7 +238,7 @@ function Portfolio() {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="right"
           >
             <h3>Gymate 💪</h3>
@@ -276,7 +276,7 @@ function Portfolio() {
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="left"
           >
             <a href="https://gmate.netlify.app/" target="_blank">
@@ -290,7 +290,7 @@ function Portfolio() {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="left"
           >
             <a href="https://e-comerc.netlify.app/" target="_blank">
@@ -301,7 +301,7 @@ function Portfolio() {
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="right"
           >
             <h3>ECOMMERCE 🛒</h3>
@@ -343,7 +343,7 @@ function Portfolio() {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="right"
           >
             <h3>COINDOM 💰</h3>
@@ -378,7 +378,7 @@ function Portfolio() {
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="left"
           >
             <a href="https://crypto-coindom.netlify.app/" target="_blank">
@@ -392,7 +392,7 @@ function Portfolio() {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="left"
           >
             <a href="">
@@ -403,7 +403,7 @@ function Portfolio() {
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="right"
           >
             <h3>Blog app 📖</h3>
@@ -446,7 +446,7 @@ function Portfolio() {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="right"
           >
             <h3>Resturant app 👨‍🍳</h3>
@@ -486,7 +486,7 @@ function Portfolio() {
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="left"
           >
             <a href="https://crypto-coindom.netlify.app/" target="_blank">
