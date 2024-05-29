@@ -12,6 +12,8 @@ import web7 from "../../assets/web7.jpeg";
 import web8 from "../../assets/web8.jpeg";
 import web9 from "../../assets/web9.jpeg";
 import { ModuleContext } from "../../Context/ModuleContext";
+import { motion as m } from "framer-motion";
+import { fadeIn } from "../../utils/variants";
 
 function Portfolio() {
   const { setShowModule } = useContext(ModuleContext);
@@ -23,7 +25,13 @@ function Portfolio() {
         <h2>Each project is a unique piece of development 🧩</h2>
         {/* Car reantel system */}
         <div className="content content_reversed">
-          <div className="right">
+          <m.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="right"
+          >
             <h3>CAR RENTAL (FEBRUARY 2023) 🚗</h3>
             <p>
               A car rental website is an online platform that allows users to
@@ -55,16 +63,28 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="left">
+          </m.div>
+          <m.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="left"
+          >
             <a href="https://car-rantel.netlify.app/" target="_blank">
               <img src={web1} alt="" />
             </a>
-          </div>
+          </m.div>
         </div>
         {/* Buss reservation system */}
         <div className="content">
-          <div className="left">
+          <m.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="left"
+          >
             <a
               onClick={() => {
                 setShowModule(true);
@@ -72,8 +92,14 @@ function Portfolio() {
             >
               <img src={web2} alt="" />
             </a>
-          </div>
-          <div className="right">
+          </m.div>
+          <m.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="right"
+          >
             <h3>Bus Reservation System 🚌</h3>
             <p>
               A bus reservation system is an online platform for booking bus
@@ -100,11 +126,17 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </m.div>
         </div>
         {/* E-store */}
         <div className="content content_reversed">
-          <div className="right">
+          <m.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="right"
+          >
             <h3>E-Store 📲</h3>
             <p>
               E-Stores make life easier by providing easy access to various
@@ -134,21 +166,39 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="left">
+          </m.div>
+          <m.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="left"
+          >
             <a href="https://e-sale.netlify.app/" target="_blank">
               <img src={web4} alt="" />
             </a>
-          </div>
+          </m.div>
         </div>
         {/* Portfolio */}
         <div className="content">
-          <div className="left">
+          <m.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="left"
+          >
             <a href="https://mzml.netlify.app/" target="_blank">
               <img src={web3} alt="" />
             </a>
-          </div>
-          <div className="right">
+          </m.div>
+          <m.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="right"
+          >
             <h3>Portfolio Website 🚩</h3>
             <p>
               Developed a personalized portfolio showcasing a collection of my
@@ -180,11 +230,17 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </m.div>
         </div>
         {/* Gymate */}
         <div className="content content_reversed">
-          <div className="right">
+          <m.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="right"
+          >
             <h3>Gymate 💪</h3>
             <p>
               Get fit and healthy at our gym by joining today. Your fitness
@@ -215,21 +271,39 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="left">
+          </m.div>
+          <m.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="left"
+          >
             <a href="https://gmate.netlify.app/" target="_blank">
               <img src={web5} alt="" />
             </a>
-          </div>
+          </m.div>
         </div>
         {/* Ecommerce */}
         <div className="content">
-          <div className="left">
+          <m.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="left"
+          >
             <a href="https://e-comerc.netlify.app/" target="_blank">
               <img src={web6} alt="" />
             </a>
-          </div>
-          <div className="right">
+          </m.div>
+          <m.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="right"
+          >
             <h3>ECOMMERCE 🛒</h3>
             <p>
               With a focus on simplicity and clean design, this store prioritize
@@ -261,11 +335,17 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </m.div>
         </div>
         {/* Coindom */}
         <div className="content content_reversed">
-          <div className="right">
+          <m.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="right"
+          >
             <h3>COINDOM 💰</h3>
             <p>
               Coindom is a crypto app that allows users to search for
@@ -293,21 +373,39 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="left">
+          </m.div>
+          <m.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="left"
+          >
             <a href="https://crypto-coindom.netlify.app/" target="_blank">
               <img src={web7} alt="" />
             </a>
-          </div>
+          </m.div>
         </div>
         {/* Blog app */}
         <div className="content">
-          <div className="left">
+          <m.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="left"
+          >
             <a href="">
               <img src={web8} alt="" />
             </a>
-          </div>
-          <div className="right">
+          </m.div>
+          <m.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="right"
+          >
             <h3>Blog app 📖</h3>
             <p>
               A personal blog is an online platform for sharing thoughts, ideas,
@@ -340,11 +438,17 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </m.div>
         </div>
         {/* Rasturant */}
         <div className="content content_reversed">
-          <div className="right">
+          <m.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="right"
+          >
             <h3>Resturant app 👨‍🍳</h3>
             <p>
               A restaurant app is an online platform for browsing menus, making
@@ -377,12 +481,18 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="left">
+          </m.div>
+          <m.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="left"
+          >
             <a href="https://crypto-coindom.netlify.app/" target="_blank">
               <img src={web9} alt="" />
             </a>
-          </div>
+          </m.div>
         </div>
       </div>
     </div>

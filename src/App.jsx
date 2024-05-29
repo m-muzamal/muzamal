@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import About from "./Components/About/About";
-import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
-import Home from "./Components/Home/Home";
-import Nav from "./Components/Navbar/Nav";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact";
+import Footer from "./Pages/Footer/Footer";
+import Home from "./Pages/Home/Home";
+import Nav from "./Pages/Navbar/Nav";
 import Popup from "./Components/Popup/Popup";
-import Portfolio from "./Components/Portfolio/Portfolio";
+import Portfolio from "./Pages/Portfolio/Portfolio";
 import { ModuleContext } from "./Context/ModuleContext";
 import Module from "./Components/Module/Module";
 

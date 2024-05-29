@@ -29,7 +29,7 @@
     animation: fadeIn 400ms ease-in-out;
     @include mb {
       width: 100%;
-      height: 80%;
+      height: auto;
       margin: 1rem;
       padding: 1rem;
     }

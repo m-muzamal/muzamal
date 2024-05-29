@@ -2,14 +2,30 @@ import React from "react";
 import "./contact.scss";
 import { GrMapLocation } from "react-icons/gr";
 import { AiOutlineMail } from "react-icons/ai";
+import { motion as m } from "framer-motion";
+import { fadeIn } from "../../utils/variants";
 
 function Contact() {
+  const screen = false;
   return (
     <div id="contact" className="contact">
       <div className="container">
         <span>Contact</span>
-        <h2>Don't be shy! Hit me up! 👇</h2>
-        <div className="items">
+        <m.h2
+          variants={fadeIn("down", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.4 }}
+        >
+          Don't be shy! Hit me up! 👇
+        </m.h2>
+        <m.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.4 }}
+          className="items"
+        >
           <div className="item">
             <div className="icon">
               <GrMapLocation />
@@ -34,7 +50,7 @@ function Contact() {
               </a>
             </div>
           </div>
-        </div>
+        </m.div>
       </div>
     </div>
   );

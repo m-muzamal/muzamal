@@ -8,6 +8,8 @@ import icon1 from "../../assets/icons.svg";
 import icon2 from "../../assets/icons_2.svg";
 import icon3 from "../../assets/icons_3.svg";
 import icon4 from "../../assets/icons_4.svg";
+import { motion as m } from "framer-motion";
+import { fadeIn } from "../../utils/variants";
 
 function Home() {
   return (
@@ -15,7 +17,13 @@ function Home() {
       <div id="#" className="home">
         <div className="container">
           <div className="my-info">
-            <div className="info">
+            <m.div
+              variants={fadeIn("right", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.4 }}
+              className="info"
+            >
               <h1>Front-End React Developer</h1>
               <img src={hand} alt="" />
               <p>
@@ -39,14 +47,26 @@ function Home() {
                   <AiFillGithub />
                 </a>
               </div>
-            </div>
-            <div className="profile">
+            </m.div>
+            <m.div
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.4 }}
+              className="profile"
+            >
               <div className="img">
                 <img src={img} alt="" />
               </div>
-            </div>
+            </m.div>
           </div>
-          <div className="skills">
+          <m.div
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.4 }}
+            className="skills"
+          >
             <p>Tech Stack</p>
             <div className="icon">
               <img src={icon1} alt="icons" />
@@ -54,7 +74,7 @@ function Home() {
               <img src={icon2} alt="icons" />
               <img src={icon3} alt="icons" />
             </div>
-          </div>
+          </m.div>
         </div>
       </div>
     </>

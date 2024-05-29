@@ -2,12 +2,20 @@ import React from "react";
 import "./about.scss";
 import about from "../../assets/about.jpg";
 import icon from "../../assets/about-icon.png";
+import { motion as m } from "framer-motion";
+import { fadeIn } from "../../utils/variants";
 
 function About() {
   return (
     <div id="about" className="about">
       <div className="container">
-        <div className="left">
+        <m.div
+          variants={fadeIn("right", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.4 }}
+          className="left"
+        >
           <div className="image">
             <img src={about} alt="" />
           </div>
@@ -15,8 +23,14 @@ function About() {
             <p>Front-End Web Developer</p>
             <img src={icon} alt="" />
           </div>
-        </div>
-        <div className="right">
+        </m.div>
+        <m.div
+          variants={fadeIn("left", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.4 }}
+          className="right"
+        >
           <span>About Me</span>
           <h2>
             A dedicated Front-end Developer based in Toba Tek Singh, Pakistan 📍
@@ -32,7 +46,7 @@ function About() {
             in collaborating with cross-functional teams to produce outstanding
             web applications.
           </p>
-        </div>
+        </m.div>
       </div>
     </div>
   );
