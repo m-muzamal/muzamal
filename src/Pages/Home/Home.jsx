@@ -21,7 +21,7 @@ function Home() {
               variants={fadeIn("right", 0.2)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: false, amount: 0.02 }}
               className="info"
             >
               <h1>Front-End React Developer</h1>
@@ -52,7 +52,7 @@ function Home() {
               variants={fadeIn("left", 0.2)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: false, amount: 0.02 }}
               className="profile"
             >
               <div className="img">
@@ -64,7 +64,7 @@ function Home() {
             variants={fadeIn("up", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.02 }}
             className="skills"
           >
             <p>Tech Stack</p>

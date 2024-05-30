@@ -13,7 +13,7 @@ function About() {
           variants={fadeIn("right", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.02 }}
           className="left"
         >
           <div className="image">
@@ -28,7 +28,7 @@ function About() {
           variants={fadeIn("left", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.02 }}
           className="right"
         >
           <span>About Me</span>
@@ -37,7 +37,7 @@ function About() {
           </h2>
           <p>
             As a Front-End Developer, I possess an impressive arsenal of skills
-            in <strong> HTML, CSS, JavaScript, React, Tailwind,</strong> and
+            in <strong> HTML, CSS, JavaScript, React,</strong> and
             <strong> SASS</strong>. I excel in designing and maintaining
             responsive websites that offer a smooth user experience. My
             expertise lies in crafting dynamic, engaging interfaces through

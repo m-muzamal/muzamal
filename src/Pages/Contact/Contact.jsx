@@ -12,10 +12,10 @@ function Contact() {
       <div className="container">
         <span>Contact</span>
         <m.h2
-          variants={fadeIn("down", 0.2)}
+          variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.02 }}
         >
           Don't be shy! Hit me up! 👇
         </m.h2>
@@ -23,7 +23,7 @@ function Contact() {
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.02 }}
           className="items"
         >
           <div className="item">
